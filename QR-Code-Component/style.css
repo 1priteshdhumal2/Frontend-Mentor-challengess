@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: #d6e2f0;
+}
+
+#qr-container {
+    background-color: #fff;
+    width: 350px;
+    height: 520px;
+    margin: 200px auto;
+    border-radius: 1rem;
+}
+
+.qr-code-img {
+    padding: 1rem;
+}
+
+.qr-code-img img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+#qr-container h2 {
+    margin: 0 1.5rem;
+    text-align: center;
+}
+
+#qr-container p {
+    font-size: 15px;
+    color: #7b879d;
+    text-align: center;
+    margin: 1rem 2.5rem;
+}
+
+@media screen and (max-width : 375px) {
+    #qr-container{
+        width: 330px;
+        
+    }
+}
